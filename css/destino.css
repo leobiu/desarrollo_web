@@ -1,0 +1,91 @@
+.pie {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  background-image: linear-gradient(to right, black, #98c1d9);
+  animation-duration: 4s;
+  animation-name: aparecer;
+  font-family: 'Duru Sans', sans-serif;
+  font-weight: bold; }
+
+.pie__division {
+  margin: 5px; }
+
+.pie__division--boton {
+  background-color: #d7dddf;
+  margin-left: 10px;
+  border-radius: 4px; }
+
+.fondito {
+  text-align: center;
+  background: #98c1d9;
+  font-family: 'Duru Sans', sans-serif; }
+
+.fondito__letra {
+  font-family: 'Duru Sans', sans-serif;
+  text-align: center;
+  font-size: 18px; }
+
+.fondito__letra--fondo {
+  background-color: #98c1d9; }
+
+.menucito {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 12vh; }
+
+.menucito__logo {
+  transition: 2s; }
+
+.menucito__logo--color {
+  background-color: #d7dddf; }
+
+.menucito__barra {
+  width: 400px;
+  border-radius: 10px;
+  height: 4vh;
+  transition: height 2s; }
+
+.menucito__barra--letra {
+  font-size: 18px; }
+
+.menucito__boton {
+  width: 100px;
+  border-radius: 10px;
+  height: 5vh; }
+
+.menucito__boton--letra {
+  font-size: 18px; }
+
+.menucito__loginCarrito {
+  font-family: 'Duru Sans', sans-serif;
+  font-weight: bold;
+  transition: 2s; }
+
+.menucito__loginCarrito--letra {
+  font-size: 18px; }
+
+.cabezal {
+  color: snow;
+  text-align: center;
+  background-image: linear-gradient(to right, black, #98c1d9);
+  font-family: 'Duru Sans', sans-serif;
+  font-size: 18px;
+  animation-duration: 4s;
+  animation-name: aparecer; }
+
+.cabezal__principal {
+  color: snow; }
+
+.cabezal__principal--letra {
+  font-size: 20px; }
+
+.navegacion {
+  background-image: linear-gradient(to right, black, #98c1d9); }
+
+.navegacion__boton {
+  margin: 10px; }
+
+.navegacion__boton--letra {
+  text-decoration: none; }
