@@ -1,5 +1,5 @@
 {
-  "name": "desafio-11",
+  "name": "desarrollo_web",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,10 +8,18 @@
     "build-css": "node-sass --include-path scss scss/origen.scss css/destino.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathid1989/desarrollo_Web.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathid1989/desarrollo_Web/issues"
+  },
+  "homepage": "https://github.com/mathid1989/desarrollo_Web#readme",
   "devDependencies": {
-    "node-sass": "^6.0.1",
+    "node-sass": "^7.0.0",
     "nodemon": "^2.0.15"
   }
 }
